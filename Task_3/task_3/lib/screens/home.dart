@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
         decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
-                  "assets/background.jpg",
+                  "assets/images/background.jpg",
                 ),
                 fit: BoxFit.cover)),
 
@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
               height: MediaQuery.of(context).size.height * 0.3,
             ),
             Image.asset(
-              "assets/homePage.png",
+              "assets/images/home_page.png",
               height: MediaQuery.of(context).size.height * 0.2,
             ),
             Text(
